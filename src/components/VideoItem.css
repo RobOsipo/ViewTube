@@ -1,5 +1,6 @@
 :root {
     --img-max: 180px;
+    --loading-font: 5rem;
 }
 
 .video-item {
@@ -10,4 +11,9 @@
 
 .video-item.item img {
     max-width: var(--img-max);
+}
+
+.loading {
+    font-size: var(--loading-font);
+    margin-top: 15vh;
 }
