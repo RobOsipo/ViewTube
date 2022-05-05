@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 class SearchBar extends Component {
   
   state = { term: '' }
@@ -18,7 +19,7 @@ class SearchBar extends Component {
   
     render() {
     return (
-      <div className="search-bar ui segment">
+      <div className="search-bar ui segment viewtube">
         <form onSubmit={this.onFormSubmit} className="ui form">
             <div className="field">
                 <label>ViewTube Search</label>
@@ -26,7 +27,7 @@ class SearchBar extends Component {
                 type="text" 
                 value={this.state.term} 
                 onChange={this.onInputChange} 
-                className=""
+                placeholder="Search any videos youd like (:"
                 />
             </div>
         </form>

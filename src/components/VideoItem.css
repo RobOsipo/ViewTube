@@ -17,3 +17,7 @@
     font-size: var(--loading-font);
     margin-top: 15vh;
 }
+
+.info {
+    color: white;
+}

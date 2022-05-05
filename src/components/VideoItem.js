@@ -4,7 +4,7 @@ import './VideoItem.css'
 const VideoItem = ({ video, onVideoSelect }) => {
   
   return (
-    <div onClick={() => onVideoSelect(video)} className="video-item item">
+    <div onClick={() => onVideoSelect(video)} className="video-item item viewtube">
         <img src={video.snippet.thumbnails.medium.url} className="ui image" alt={video.snippet.title} />
         <div className="content">
             <div className="header">

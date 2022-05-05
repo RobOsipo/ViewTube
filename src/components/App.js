@@ -4,6 +4,7 @@ import youtube from '../apis/youtube'
 import VideoList from './VideoList'
 import VideoDetail from './VideoDetail'
 
+
 class App extends React.Component {
 
   state = { videos: [], selectedVideo: null }
@@ -30,7 +31,7 @@ class App extends React.Component {
   
   render() {
     return (
-      <div className="ui container">
+      <div className="ui container viewtube">
         <SearchBar onFormSubmit={this.onTermSubmit} />
         <div className="ui grid">
           <div className="ui row">
